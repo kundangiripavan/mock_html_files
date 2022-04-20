@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login page</title>
+        <style>
+            Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-image: url("img_nature.jpg");  
+} 
+
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+h1 {text-align:center;
+    color: black;
+}
+
+.container {
+  padding: 16px;
+  width: 30%;
+  margin-left: auto;
+  border: 3px solid #f1f1f1;
+  background-color:white;
+
+
+}
+
+
+span.forgpsw {
+  float: right;
+  padding-top: 16px;
+}
+span.User,span.pass{
+    color: black;
+    font-size:larger;
+}
+
+        </style>
+    </head>
+    <body>
+        
+        <div class="container">
+           <h1>Login page</h1>
+           
+              <label><span class="User">Username: </span></label>
+              <input type="text" placeholder="Enter username" name="username" required>
+              <label ><span class="pass">Password: </span></label>
+              <input type="password" placeholder="Enter the password" name="password" required>
+              <button type="submit">Login</button>
+              <input type="checkbox" checked="checked" name="remember" value="Yes"> Remember me
+              <button type="button" class="cancelbtn">Cancel</button>
+              <span class="forgpsw"> Forgot <a href="#"> password? </a></span>
+
+            </form>
+        </div>
+    </body>
+</html>
