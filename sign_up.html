@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SIGN-UP PAGE</title>
+        <style>
+            Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-image: url("sign_up_image.jpg");  
+} 
+
+
+
+input[type=text], input[type=password],input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+}
+
+
+button:hover {
+  opacity: 0.8;
+}
+
+h1 {text-align:center;
+    color: black;
+}
+
+.container {
+  padding: 16px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #f1f1f1;
+  background-color:white;
+
+
+}
+
+
+span.forgpsw {
+  float: right;
+  padding-top: 16px;
+}
+span.User,span.pass,span.contact{
+    color: black;
+    font-size:larger;
+}
+#resetbtn {
+  background-color: #f44336;
+}
+#savebtn{
+    float:right;
+}
+
+
+        </style>
+    </head>
+    <body>
+        
+        <div class="container">
+           <h1>SIGN-UP PAGE</h1>
+           <hr width="100%" 
+           size="5" 
+           align="center"
+           color="black">
+              <label><span class="User">Username: </span></label>
+              <input type="text" placeholder="Enter your email" name="username" required>
+              <label ><span class="pass">Password: </span></label>
+              <input type="password" placeholder="Enter the password" name="password" required>
+              <label ><span class="pass">Confirm Password: </span></label>
+              <input type="password" placeholder="Re-Enter the password" name="re-password" required>
+              <label><span class="contact">User info: </span></label>
+              <input type="text" placeholder="Enter your first name" name="first_name" required>
+              <input type="text" placeholder="Enter your last name" name="last_name" required>
+              <input type="text" placeholder="Enter phone number" name="phone_number" required>
+              <input type="email" placeholder="Enter email address" name="email_address" required>
+              <input type="text" placeholder="Enter address" name="address" required>
+              <button type="reset" id="resetbtn">Reset</button>
+              <button type="submit" id="savebtn">Save</button>
+              
+              
+              
+              
+
+            </form>
+        </div>
+    </body>
+</html>
